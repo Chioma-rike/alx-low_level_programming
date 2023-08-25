@@ -14,7 +14,7 @@ int main(void)
  *   - You are not allowed to modify the variable p
  *   - You can only write one statement
  *   - You are not allowed to code anything else than the expected code
- *   -Your code should be written at line 19, before the ;
+ *   - Your code should be written at line 19, before the ;
  */
 	*(p + 5) = 98;
 /* ...so that this prints 98\n */
