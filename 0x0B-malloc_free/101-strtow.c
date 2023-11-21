@@ -4,7 +4,8 @@
 
 /**
  * print_tab - Prints an array of string.
- * @tab: The array to print.
+ * @tab: The array to print
+ *
  * Return: 0
  */
 void print_tab(char **tab)
@@ -19,13 +20,14 @@ void print_tab(char **tab)
 
 /**
  * main - check the code for ALX School students.
+ *
  * Return: 0.
  */
 int main(void)
 {
 	char **tab;
 
-	tab = strtow("ALX School #cisfun");
+	tab = strtow("      ALX School         #cisfun      ");
 	if (tab == NULL)
 	{
 		printf("Failed\n");
